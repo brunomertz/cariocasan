@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo de Produtos</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+                integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+                crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+                rel="stylesheet">
+
+        <!-- --style css-- -->
+        <link href="css/style-cariocasan-produtos-set2025-v1.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+        <!-- JS do Fancybox -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+        <!-- -- favicon -- -->
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon16x16.png">
+
+</head>
+
+<body>
+        <!-- ====== NAVBAR ====== -->
+        <nav id="menu-principal" class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container">
+
+                        <!-- LOGO -->
+                        <a class="navbar-brand logo" href="index.html">
+                                <img src="img/logo.png" alt="Carioca San" id="logo">
+                        </a>
+
+                        <!-- BOTÃO MOBILE WHATSAPP -->
+                        <div class="d-lg-none ml-auto mr-2">
+                                <a href="https://wa.me/5521969240486" class="btn btn-whatsapp">
+                                        <i class="fab fa-whatsapp mr-2"></i> 21 96924-0486
+                                </a>
+                        </div>
+
+                        <!-- HAMBURGUER -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- MENU -->
+                        <div class="collapse navbar-collapse" id="menuSite">
+                                <ul class="navbar-nav mx-auto">
+                                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="quem-somos.html">SOBRE NÓS</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="produtos.html">PRODUTOS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index.html#receitas">RECEITAS</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="index.html#contato">CONTATO</a>
+                                        </li>
+                                </ul>
+
+                                <!-- BOTÃO DESKTOP WHATSAPP -->
+                                <div class="d-none d-lg-block">
+                                        <a href="https://wa.me/5521969240486" class="btn btn-whatsapp">
+                                                <i class="fab fa-whatsapp mr-2"></i> 21 96924-0486
+                                        </a>
+                                </div>
+                        </div>
+                </div>
+        </nav>
+        <!-- ----------COVER------------ -->
+        <section id="cover-pdt">
+                <div class="chamada-home text-center">
+
+                </div>
+        </section>
+
+        <!-- -----------CATEGORIAS--------------- -->
+        <div id="container-categorias" class="container py-4">
+                <h1 class="text-center mb-4 d-none d-lg-block">Catálogo de Produtos</h1>
+
+                <div class="row">
+                        <!-- COLUNA CATEGORIAS -->
+                        <aside class="col-lg-3 d-none d-lg-block">
+                                <div class="menu-categorias-box">
+                                        <h5 class="titulo-categorias d-md-none"><i class="fas fa-list"></i> Categorias
+                                        </h5>
+                                        <ul class="nav flex-column" id="menuCategorias">
+                                                <li class="nav-item"><a class="nav-link active" href="#"
+                                                                data-categoria="todas">Todos</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Arroz e Algas">Arroz e Algas</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Temperos e Molhos">Temperos e Molhos</a>
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Massas e Farinhas">Massas e Farinhas</a>
+                                                </li>
+                                                <!-- <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Bebidas">Bebidas</a></li> -->
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Refrigerados e Congelados">Refrigerados
+                                                                e
+                                                                Congelados</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Utensílios e Acessórios">Utensílios e
+                                                                Acessórios</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#"
+                                                                data-categoria="Embalagens">Embalagens</a></li>
+                                        </ul>
+                                </div>
+                        </aside>
+
+                        <!-- BOTÃO MOBILE -->
+                        <div class="col-12 d-lg-none mb-3 text-center">
+                                <button class="btn btn-categorias" id="btnCategorias">
+                                        <i class="fas fa-shopping-bag"></i> &nbsp;Catálogo de Produtos
+                                </button>
+                        </div>
+
+                        <!-- LISTA DE PRODUTOS -->
+                        <main class="col-lg-9">
+                                <div id="produtosContainer"></div>
+                        </main>
+                </div>
+
+                <!-- Overlay e Sidebar apenas para mobile -->
+                <div id="overlayCategorias"></div>
+                <div id="sidebarCategorias" class="sidebar d-lg-none">
+                        <button class="closebtn d-lg-none" id="closeCategorias">&times;</button>
+
+                        <ul class="nav flex-column menuCategoriasMobile" id="menuCategorias">
+                                <li class="nav-item"><a class="nav-link active" href="#"
+                                                data-categoria="todas">Todos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-categoria="Arroz e Algas">Arroz e
+                                                Algas</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"
+                                                data-categoria="Temperos e Molhos">Temperos e Molhos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"
+                                                data-categoria="Massas e Farinhas">Massas e Farinhas</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="#" data-categoria="Bebidas">Bebidas</a>
+                                </li> -->
+                                <li class="nav-item"><a class="nav-link" href="#"
+                                                data-categoria="Refrigerados e Congelados">Refrigerados e
+                                                Congelados</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"
+                                                data-categoria="Utensílios e Acessórios">Utensílios e
+                                                Acessórios</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"
+                                                data-categoria="Embalagens">Embalagens</a></li>
+                        </ul>
+
+
+                </div>
+        </div>
+        <footer class="pt-5 pb-5">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-12">
+                                        <p>
+                                                Rio de Janeiro<br>
+                                                21 3496-5512 | 3496-5565 | <i class="fab fa-whatsapp mr-2"></i> 21
+                                                96924-0486<br>
+                                                contato@cariocasandistribuidora.com.br
+                                        </p>
+                                </div>
+
+                        </div>
+                </div>
+        </footer>
+
+
+        <script src="js/script.js"></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap4.min.js"></script>
+        <script src="https://kit.fontawesome.com/yourkit.js"></script>
+        <!-- navbar -->
+        <script>
+                window.addEventListener("scroll", function () {
+                        const navbar = document.querySelector(".navbar");
+                        if (window.scrollY > 50) {
+                                navbar.classList.add("navbar-shrink");
+                        } else {
+                                navbar.classList.remove("navbar-shrink");
+                        }
+                });
+        </script>
+
+        <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                        const btn = document.getElementById("btnCategorias");
+                        const sidebar = document.getElementById("sidebarCategorias");
+                        const closeBtn = document.getElementById("closeCategorias");
+                        const overlay = document.getElementById("overlayCategorias");
+                        const links = document.querySelectorAll("#menuCategorias .nav-link");
+
+                        function fecharMenu() {
+                                sidebar.classList.remove("open");
+                                overlay.classList.remove("open");
+                        }
+
+                        if (btn) {
+                                btn.addEventListener("click", () => {
+                                        sidebar.classList.add("open");
+                                        overlay.classList.add("open");
+                                });
+                        }
+
+                        if (closeBtn) {
+                                closeBtn.addEventListener("click", fecharMenu);
+                        }
+
+                        if (overlay) {
+                                overlay.addEventListener("click", fecharMenu);
+                        }
+
+                        // ✅ Fecha o menu ao clicar em qualquer categoria
+                        links.forEach(link => {
+                                link.addEventListener("click", fecharMenu);
+                        });
+                });
+
+
+        </script>
+
+</body>
+
+</html>

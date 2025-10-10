@@ -1,0 +1,372 @@
+body {
+    background-color: #000000;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+    transition: all 0.3s ease;
+    padding: 0.8rem 1rem;
+}
+
+.logo img {
+    height: 100px;
+    padding-top: 0;
+    /* tamanho normal */
+    transition: all 0.3s ease;
+    /* animação suave */
+}
+
+/* estado reduzido */
+.navbar.navbar-shrink {
+    padding: 0.3rem 1rem;
+    background-color: rgba(245, 222, 179, 0.95);
+    /* mantém o wheat com leve transparência */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.navbar-shrink .logo img {
+    height: 50px;
+    /* reduz o tamanho da logo */
+}
+
+
+.navbar-nav .nav-link {
+    color: #444;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #c0392b !important;
+    /* Vermelho destaque */
+}
+
+/* Botão WhatsApp */
+.btn-whatsapp {
+    background: #c0392b;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btn-whatsapp:hover {
+    background: #a93226;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Ícone hamburguer */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: wheat;
+    position: relative;
+    top: -5px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28200, 57, 43, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    background-color: wheat;
+    z-index: 1000;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .logo img {
+        height: 80px;
+        /* logo um pouco menor no mobile mesmo antes do shrink */
+    }
+
+    .navbar.navbar-shrink .logo img {
+        height: 55px;
+        /* logo reduzida no mobile */
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    /* Ajustes mobile */
+    .btn-whatsapp {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: -18px;
+        top: 0;
+        padding: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 8px;
+    }
+
+    .nav-link {
+        width: fit-content;
+        font-size: 12px;
+        margin: 0 4px !important;
+    }
+
+
+
+    /* .navbar-brand img {
+        height: 100px !important;
+    } */
+}
+
+@media(min-width:992px) {
+    .navbar {
+        padding-top: 0;
+    }
+
+    .logo img {
+        height: 150px;
+        position: relative;
+        left: -40px;
+    }
+}
+
+/* ========= FIM NAVBAR ======== */
+
+/* ====== SECTION COVER ======== */
+
+#cover-pdt {
+    position: relative;
+}
+
+.chamada-home {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.chamada-home h1 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #aa3723;
+}
+
+
+.cover-image {
+    width: 100%;
+}
+
+@media(min-width:992px) {
+    .chamada-home {
+        height: 140px;
+    }
+
+    .chamada-home h1 {
+        font-size: 1.6rem;
+    }
+
+    .chamada-home {
+        bottom: 5vw;
+    }
+}
+
+
+/* ===== MENU CATEGORIAS ===== */
+.sidebar {
+    background-color: #fff;
+    padding: 20px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+@media(max-width: 991px) {
+    #menuCategorias .nav-link {
+        font-size: 16px;
+    }
+
+}
+
+
+
+/* Desktop: dentro do container, layout normal */
+@media(min-width: 992px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .sidebarCategorias {
+        display: none;
+    }
+
+    .closebtn,
+    #overlayCategorias,
+    .btn-categorias {
+        display: none;
+    }
+
+    #menuCategorias {
+        display: flex;
+        gap: 10px;
+    }
+
+    #menuCategorias .nav-link {
+        padding: 8px 14px;
+        font-weight: 500;
+        border-radius: 4px;
+    }
+
+    #menuCategorias .nav-link.active,
+    #menuCategorias .nav-link:hover {
+        background-color: #c0392b;
+        color: #fff;
+    }
+}
+
+/* Mobile: sidebar lateral com overlay */
+@media(max-width: 991.98px) {
+    #overlayCategorias {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
+        z-index: 1049;
+    }
+
+    #overlayCategorias.open {
+        width: 100%;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -80%;
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        transition: 0.3s;
+        z-index: 1050;
+        padding-top: 60px;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        font-size: 36px;
+        background: none;
+        border: none;
+        color: #c0392b;
+    }
+
+    .btn-categorias {
+        width: 100%;
+        padding: 8px;
+        background: #c0392b;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        font-size: 22px;
+    }
+
+    #menuCategorias .nav-link {
+        padding: 12px 20px;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+
+/* ======CARDS PRODUTOS===== */
+
+#container-categorias {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card {
+    padding-top: 8px;
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+    max-width: 130px;
+    max-height: 180px;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: small;
+}
+
+.btn-zap {
+    font-size: small;
+}
+
+.card-body {
+    padding: 0.6rem;
+}
+
+#container-categorias h1 {
+    color: #c0392b;
+    font-size: 32px;
+}
+
+.titulo-categoria {
+    color: #ddc08a;
+}
+
+#menuCategorias .nav-link {
+    color: #444 !important;
+}
+
+
+
+@media (min-width:992px) {
+    #container-categorias h1 {
+        font-size: 42px;
+    }
+
+    #menuCategorias .active,
+    #menuCategorias .nav-link:hover {
+        color: #FFF !important;
+    }
+
+}
+
+/* ======footer===== */
+
+footer p {
+    font-size: 0.9rem;
+    color: rgb(216, 197, 157);
+}

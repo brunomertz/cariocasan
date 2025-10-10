@@ -1,0 +1,569 @@
+[
+    {
+        "nome": "Arroz Minamimai Longo 5kg",
+        "imagem": "img/ingredientes-essenciais/arroz-minamimai-longo-5kg.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Arroz grão longo Minamimai, pacote de 5kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Arroz Minamimai Curto Premium 5kg",
+        "imagem": "img/ingredientes-essenciais/sem-foto.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Arroz grão curto premium Minamimai, ideal para sushi, 5kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Arroz Hachidori Curto 5kg",
+        "imagem": "img/ingredientes-essenciais/arroz-hachidori-curto-5kg.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Arroz tipo curto Hachidori, especial para culinária japonesa, 5kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Alga Gold Seiwa 115gr",
+        "imagem": "img/ingredientes-essenciais/alga-seiwa-gold-155gr.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Alga nori premium para sushi, embalagem de 115g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Alga Fukumatsu Rubi 140gr",
+        "imagem": "img/ingredientes-essenciais/alga-fukumatsu-rubi-140gr.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Alga nori de alta qualidade para culinária japonesa, 140g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Alga Kombu Pct 150gr",
+        "imagem": "img/ingredientes-essenciais/alga-kombu-pct-150gr.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Alga Kombu utilizada em caldos e preparações orientais, pacote 150g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Gengibre Fatiado Hachidori 1Kg",
+        "imagem": "img/ingredientes-essenciais/gengibre-fatiado-hachidori-1kg.jpg",
+        "categoria": "Ingredientes Essenciais",
+        "descricao": "Gengibre fatiado em conserva, pacote 1kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sachê Mitsuwa Premium 8ml - Cx c/ 250unid",
+        "imagem": "img/temperos-molhos/sache-shoyu-mitsuwa-premium-10ml-cx-250-unid.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu em sachê premium Mitsuwa 8ml, caixa com 250 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sachê Mitsuwa Light 8ml - Cx c/ 250unid",
+        "imagem": "img/temperos-molhos/sache-shoyu-mitsuwa-light-8ml-cx-250-unid.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu light em sachê Mitsuwa 8ml, caixa com 250 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sachê Mitsuwa Tarê 8ml - Cx c/ 250unid",
+        "imagem": "img/temperos-molhos/sache-tare-teriaki-mitsuwa-8g-cx-250-unid.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho tarê em sachê Mitsuwa 8ml, caixa com 250 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sachê Kikkoman Tradicional 8ml - Cx c/ 200unid",
+        "imagem": "img/temperos-molhos/shoyu-sache-azuma-trad-8ml-cx-200-unid.png",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu tradicional em sachê Kikkoman 8ml, caixa com 200 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sachê Azuma Light 8ml - Cx c/ 200unid",
+        "imagem": "img/temperos-molhos/shoyu-sache-azuma-light-8ml-cx-200-unid.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu light em sachê Azuma 8ml, caixa com 200 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Saquê Azuma Kirin Comum Bt 5L",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Saquê culinário Azuma Kirin comum, garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Saquê Cheff Seco Azuma Kirin - 5L",
+        "imagem": "img/temperos-molhos/saque-cheff-seco-azuma-kirin-5l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Saquê culinário seco Azuma Kirin, garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Saquê Mirim Licoroso - Azuma Kirin - 5L",
+        "imagem": "img/temperos-molhos/saque-mirim-licoroso-azuma-kirin-5l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Saquê mirim licoroso Azuma Kirin, garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Oriental Azuma 5l Cx C/ 2bb",
+        "imagem": "img/temperos-molhos/shoyu-oriental-azuma-5l-cx-c-2bb.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu oriental tradicional Azuma, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Oriental Light 5l Cx C/ 2bb",
+        "imagem": "img/temperos-molhos/shoyu-oriental-light-5l-cx-c-2bb.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu oriental light Azuma, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Sushi Sashimi 5l Cx C/ 2bb",
+        "imagem": "img/temperos-molhos/shoyu-sushi-sashimi-5l-cx-c-2bb.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu especial para sushi e sashimi, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Tradicional Azuma 5l Cx C/ 2bb",
+        "imagem": "img/temperos-molhos/shoyu-tradicional-azuma-5l-cx-c-2bb.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu tradicional Azuma envelhecido, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Hinomoto Kirin 20l",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu Hinomoto Kirin galão de 20 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Hinomoto Kirin 5l",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu Hinomoto Kirin garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Shoyu Hinomoto Light 5l",
+        "imagem": "img/temperos-molhos/shoyu-hinomoto-light-5l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Shoyu light Hinomoto, garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Aji No Moto Pct - C/ 1KG",
+        "imagem": "img/temperos-molhos/aji-no-moto-pct-com-1kg.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Realçador de sabor Aji No Moto, pacote de 1kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Furikake Diversos",
+        "imagem": "img/temperos-molhos/furikake-diversos.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Tempero japonês furikake em diversos sabores para arroz.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Hondashi Ajinomoto 500gr",
+        "imagem": "img/temperos-molhos/hondashi-ajinomoto-500gr.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Caldo concentrado de peixe Hondashi, embalagem de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Molho de Ostra - 420ml",
+        "imagem": "img/temperos-molhos/molho-de-ostra-420ml.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho de ostra para culinária oriental, frasco de 420ml.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Óleo de Gergelim Torrado Sésamo Real 1L",
+        "imagem": "img/temperos-molhos/oleo-de-gergelim-torrado-sesamo-real-1l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Óleo de gergelim torrado premium, garrafa de 1 litro.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Óleo de Gergelim Torrado Hong Kong - 900ml",
+        "imagem": "img/temperos-molhos/oleo-de-gergelim-torrado-hong-kong-900ml.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Óleo de gergelim torrado Hong Kong, garrafa de 900ml.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pimenta Togarashi 15gr",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Pimenta japonesa togarashi mix de 7 especiarias, frasco de 15g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pimenta Sriracha Pantai 435ml",
+        "imagem": "img/temperos-molhos/pimenta-srirasha-pantai-435-ml.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho de pimenta sriracha picante, frasco de 435ml.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Wasabi Fukumatsu Power 1,05Kg",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Pasta de wasabi em pó para preparo, lata de 1,05kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Soboro em pó 2gr",
+        "imagem": "img/temperos-molhos/soboro-em-po-2gr.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Soboro em pó para decoração de pratos, sachê de 2g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Corante em pó 1g",
+        "imagem": "img/temperos-molhos/corante-em-po-1g.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Corante alimentício em pó, sachê de 1g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Molho Tarê / Teriaki Mitsuwa Bb 5l",
+        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho tarê/teriyaki Mitsuwa, garrafa de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Tonkatsu Azuma cx c/ 2bb 5L",
+        "imagem": "img/temperos-molhos/tonkatsu-azuma-cx-c-2bb-5l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho tonkatsu Azuma, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Tonkatsu Maruiti 5L",
+        "imagem": "img/temperos-molhos/tonkatsu-maruiti-5l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho tonkatsu Maruiti, galão de 5 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Tempero De Arroz Azuma Kirin Bb 5l - Cx 2 Unid.",
+        "imagem": "img/temperos-molhos/tempero-de-arroz-azuma-kirin-bb-5l-cx-2-unid.png",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Tempero líquido para arroz de sushi Azuma Kirin, garrafa 5 litros, caixa com 2 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Tempero para Sushi Castelo 20L",
+        "imagem": "img/temperos-molhos/tempero-para-sushi-castelo-20l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Tempero líquido para arroz de sushi Castelo, galão de 20 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Farinha Panko Alfa 1Kg",
+        "imagem": "img/massas-farinhas/sem-foto.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Farinha panko crocante, pacote de 1kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Farinha para Tempurá Seiwa Woontree 500gr",
+        "imagem": "img/massas-farinhas/farinha-para-tempura-seiwa-woontree-500gr.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Farinha especial para tempurá, pacote de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Bifum Pct 500g",
+        "imagem": "img/massas-farinhas/bifum-pct-500g.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Macarrão de arroz bifum, pacote de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Macarrão Nissin T5 - 500gr",
+        "imagem": "img/massas-farinhas/yakissoba-nissin-t5-pct-500g.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Macarrão instantâneo Nissin Espaguete T5, pacote de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Macarrão Alfa Yaksoba - 500gr",
+        "imagem": "img/massas-farinhas/macarrao-alfa-yaksoba-500gr.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Macarrão para yakisoba Alfa Missoka, pacote de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Harussame - Macarrão de Feijão - 200gr",
+        "imagem": "img/massas-farinhas/harussame-pct-200g.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Macarrão transparente de feijão harussame, pacote de 200g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Folha de Arroz Towa - pct 340gr",
+        "imagem": "img/massas-farinhas/sem-foto.jpg",
+        "categoria": "Massas e Farinhas",
+        "descricao": "Folha de arroz vietnamita para rolinho, pacote de 340g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Ban-chá Pct 200g",
+        "imagem": "img/bebidas/ban-cha-pct-200-g.jpg",
+        "categoria": "Bebidas",
+        "descricao": "Chá verde japonês Ban-chá, pacote de 200g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Lichia para Caipsaque 567gr",
+        "imagem": "img/bebidas/lichia-p-caipsaque-567gr.jpg",
+        "categoria": "Bebidas",
+        "descricao": "Lichia em calda para preparo de caipsaque, lata de 567g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Saquê Azuma Kirin Dourado R0 Grf. 740ml - Cx 12 Unid.",
+        "imagem": "img/bebidas/saque-azuma-kirin-dourado-rd-grf-175ml-cx-24-unid.jpg",
+        "categoria": "Bebidas",
+        "descricao": "Saquê Azuma Kirin Dourado R0 para beber, garrafa 740ml, caixa com 12 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Saquê Soft 740ml - cx c/ 12Gf",
+        "imagem": "img/bebidas/saque-azuma-kirin-soft-grf-740ml-cx-12-unid.png",
+        "categoria": "Bebidas",
+        "descricao": "Saquê Soft suave para beber, garrafa 740ml, caixa com 12 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Aguebashi / Hashizão",
+        "imagem": "img/utensilios-acessorios/aguebashi-hashizao.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Hashi de bambu para fritura e cozimento, tamanho grande.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Benriner Importado",
+        "imagem": "img/utensilios-acessorios/benriner-importado.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Fatiador japonês Benriner profissional importado com lâminas ajustáveis.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Cilindro Para Maçarico Portátil",
+        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Cilindro de gás para maçarico culinário portátil.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Faca Para Sushiman",
+        "imagem": "img/utensilios-acessorios/faca-sushiman.png",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Faca especial para sushiman, lâmina afiada para cortes precisos.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Maçarico",
+        "imagem": "img/utensilios-acessorios/macarico.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Maçarico culinário portátil para finalização de pratos.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Moedor De Gergelim",
+        "imagem": "img/utensilios-acessorios/moedor-de-gergelim.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Moedor manual para gergelim e sementes, ideal para culinária japonesa.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pedra Para Amolar 300",
+        "imagem": "img/utensilios-acessorios/pedra-para-amolar-300.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Pedra de amolar japonesa granulação 300 para afiar facas.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pegador - Unid",
+        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Pegador culinário em aço inoxidável, unidade.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pinça Inox Diagonal",
+        "imagem": "img/utensilios-acessorios/pinca-inox-diagonal.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Pinça diagonal em aço inoxidável para montagem de pratos.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pinça Inox Reta",
+        "imagem": "img/utensilios-acessorios/pinca-inox-reta.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Pinça reta em aço inoxidável para finalização de pratos.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Sudare - Esteira De Bambu Para Sushi",
+        "imagem": "img/utensilios-acessorios/sudare-esteira-de-bambu-para-sushi.png",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Esteira de bambu tradicional para enrolar sushi e temaki.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Pegador Sushi Plastico 30cm",
+        "imagem": "img/utensilios-acessorios/pegador-sushi-plastico.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Pegador plástico para sushi 30cm, ideal para servir.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Clip para Hashi – Pct 30 Unid.",
+        "imagem": "img/utensilios-acessorios/clip-para-hashi-pct-30-unid.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Clip adaptador para hashis, pacote com 30 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Hashi embalagem plástico 50 pares",
+        "imagem": "img/utensilios-acessorios/hashi-embalagem-plastico-50-pares.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Hashis embalados em plástico, pacote com 50 pares.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Hashi embalagem Papel 50 pares",
+        "imagem": "img/utensilios-acessorios/hashi-embalagem-papel-50-pares.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Hashis embalados em papel, pacote com 50 pares.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Espeto 10cm (pct c/100unid)",
+        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Espetos de bambu 10cm, pacote com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Espeto 15cm (pct c/100unid)",
+        "imagem": "img/utensilios-acessorios/espeto-15-pct-c-100unid.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Espetos de bambu 15cm, pacote com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Espeto 18cm (pct c/100unid)",
+        "imagem": "img/utensilios-acessorios/espeto-18-pct-c-100unid.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Espetos de bambu 18cm, pacote com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Espeto 21cm (pct c/100unid)",
+        "imagem": "img/utensilios-acessorios/espeto-21-pct-c-100unid.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Espetos de bambu 21cm, pacote com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Espeto c/ nó 9cm (pct c/50unid)",
+        "imagem": "img/utensilios-acessorios/espeto-c-no-9cm-pct-c-50-unid.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Espetos de bambu com nó, 9cm, pacote com 50 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Massa Para Guioza Taichi - 30 Fls",
+        "imagem": "img/refrigerados-congelados/massa-para-guiosa-taichi-30-fls.png",
+        "categoria": "Refrigerados e Congelados",
+        "descricao": "Massa pronta para guioza, pacote com 30 folhas.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Massa Para Harumake Taichi - 30 Fls",
+        "imagem": "img/refrigerados-congelados/massa-para-harumake-taichi-30-fls.png",
+        "categoria": "Refrigerados e Congelados",
+        "descricao": "Massa pronta para harumake, pacote com 30 folhas.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Massa Para Harumake Long Way 30 Fls",
+        "imagem": "img/refrigerados-congelados/sem-foto.jpg",
+        "categoria": "Refrigerados e Congelados",
+        "descricao": "Massa para harumake Long Way, pacote com 30 folhas.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Missô Azuma 1kg",
+        "imagem": "img/refrigerados-congelados/misso-azuma-1kg.png",
+        "categoria": "Refrigerados e Congelados",
+        "descricao": "Pasta de missô tradicional japonesa, embalagem de 1kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Nozoki / Berço de Shoyu Cx C/1000 Unid",
+        "imagem": "img/embalagens/nozoki-berco-de-shoyu-cx-c-1000-unid.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Berço plástico para shoyu, caixa com 1000 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem 01 (19x14cm) Cx C/100 Unid",
+        "imagem": "img/embalagens/embalagem-01-19-14cm-cx-c-100-unid.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica 19x14cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem 02 (23x15cm) Cx C/100 Unid",
+        "imagem": "img/embalagens/sem-foto.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica 23x15cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem 06 (22x9cm) Cx C/100 Unid",
+        "imagem": "img/embalagens/embalagem-06-22-x-9-cx-c-100-unid.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica 22x9cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem 07 (24,5x16,5cm) Cx C/100 Unid",
+        "imagem": "img/embalagens/embalagem-07-24-5-x-16-5-cx-c-100-unid.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica 24,5x16,5cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem Temaki (21x10cm) Cx C/100unid",
+        "imagem": "img/embalagens/sem-foto.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica para temaki 21x10cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem Big Boat (41x20,5cm) Cx C/40 Unid",
+        "imagem": "img/embalagens/embalagem-big-boat-41-x-20-5-cx-c-40-uni.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica grande formato boat 41x20,5cm, caixa com 40 unidades.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Embalagem Boat (27x15cm) Cx C/100 Unid",
+        "imagem": "img/embalagens/sem-foto.jpg",
+        "categoria": "Embalagens",
+        "descricao": "Embalagem plástica formato boat 27x15cm, caixa com 100 unidades.",
+        "whatsapp": "5521969240486"
+    }
+]
