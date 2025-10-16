@@ -49,6 +49,13 @@
         "whatsapp": "5521969240486"
     },
     {
+        "nome": "Tempero para Sushi Castelo 20L",
+        "imagem": "img/temperos-molhos/tempero-para-sushi-castelo-20l.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Tempero líquido para arroz de sushi Castelo, galão de 20 litros.",
+        "whatsapp": "5521969240486"
+    },
+    {
         "nome": "Gengibre Fatiado Hachidori 1Kg",
         "imagem": "img/temperos-molhos/gengibre-fatiado-hachidori-1kg.png",
         "categoria": "Temperos e Molhos",
@@ -134,58 +141,37 @@
     },
     {
         "nome": "Shoyu Hinomoto Kirin 20l",
-        "imagem": "img/temperos-molhos/sem-foto.jpg",
+        "imagem": "img/temperos-molhos/Shoyu-Hinomoto-Kirin-20l.jpg",
         "categoria": "Temperos e Molhos",
         "descricao": "Shoyu Hinomoto Kirin galão de 20 litros.",
         "whatsapp": "5521969240486"
     },
     {
-        "nome": "Shoyu Hinomoto Kirin 5l",
-        "imagem": "img/temperos-molhos/sem-foto.jpg",
-        "categoria": "Temperos e Molhos",
-        "descricao": "Shoyu Hinomoto Kirin garrafa de 5 litros.",
-        "whatsapp": "5521969240486"
-    },
-    {
-        "nome": "Aji No Moto Pct - C/ 1KG",
-        "imagem": "img/temperos-molhos/aji-no-moto-pct-com-1kg.jpg",
-        "categoria": "Temperos e Molhos",
-        "descricao": "Realçador de sabor Aji No Moto, pacote de 1kg.",
-        "whatsapp": "5521969240486"
-    },
-    {
-        "nome": "Furikake Diversos",
-        "imagem": "img/temperos-molhos/furikake-diversos.jpg",
-        "categoria": "Temperos e Molhos",
-        "descricao": "Tempero japonês furikake em diversos sabores para arroz.",
-        "whatsapp": "5521969240486"
-    },
-    {
-        "nome": "Hondashi Ajinomoto 500gr",
-        "imagem": "img/temperos-molhos/hondashi-ajinomoto-500gr.jpg",
-        "categoria": "Temperos e Molhos",
-        "descricao": "Caldo concentrado de peixe Hondashi, embalagem de 500g.",
-        "whatsapp": "5521969240486"
-    },
-    {
-        "nome": "Óleo de Gergelim Torrado Hong Kong - 900ml",
+        "nome": "Óleo de Gergelim Torrado Hong Kong 900ml",
         "imagem": "img/temperos-molhos/oleo-de-gergelim-torrado-hong-kong-900ml.jpg",
         "categoria": "Temperos e Molhos",
         "descricao": "Óleo de gergelim torrado Hong Kong, garrafa de 900ml.",
         "whatsapp": "5521969240486"
     },
     {
-        "nome": "Soboro em pó 2gr",
-        "imagem": "img/temperos-molhos/soboro-em-po-2gr.jpg",
+        "nome": "Óleo de gergelim torrado 900ml",
+        "imagem": "img/temperos-molhos/oleo-gergelim-torrado-900ml.jpg",
         "categoria": "Temperos e Molhos",
-        "descricao": "Soboro em pó para decoração de pratos, sachê de 2g.",
+        "descricao": "Óleo de gergelim torrado, garrafa de 900ml.",
         "whatsapp": "5521969240486"
     },
     {
-        "nome": "Corante em pó 1g",
-        "imagem": "img/temperos-molhos/corante-em-po-1g.jpg",
+        "nome": "Molho de pimenta Sweet Chilli 1,01L",
+        "imagem": "img/temperos-molhos/molhodepimenta-SweetChilli-101.jpg",
         "categoria": "Temperos e Molhos",
-        "descricao": "Corante alimentício em pó, sachê de 1g.",
+        "descricao": "Molho de pimenta Sweet Chilli 1,01L",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Molho de pimenta Sweet Chilli 5L",
+        "imagem": "img/temperos-molhos/molhodepimenta-SweetChilli-5L.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Molho de pimenta Sweet Chilli 5L",
         "whatsapp": "5521969240486"
     },
     {
@@ -210,10 +196,38 @@
         "whatsapp": "5521969240486"
     },
     {
-        "nome": "Tempero para Sushi Castelo 20L",
-        "imagem": "img/temperos-molhos/tempero-para-sushi-castelo-20l.jpg",
+        "nome": "Aji No Moto Pct - C/ 1KG",
+        "imagem": "img/temperos-molhos/aji-no-moto-pct-com-1kg.jpg",
         "categoria": "Temperos e Molhos",
-        "descricao": "Tempero líquido para arroz de sushi Castelo, galão de 20 litros.",
+        "descricao": "Realçador de sabor Aji No Moto, pacote de 1kg.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Hondashi Ajinomoto 500gr",
+        "imagem": "img/temperos-molhos/hondashi-ajinomoto-500gr.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Caldo concentrado de peixe Hondashi, embalagem de 500g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Furikake Diversos",
+        "imagem": "img/temperos-molhos/furikake-diversos.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Tempero japonês furikake em diversos sabores para arroz.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Soboro em pó 2gr",
+        "imagem": "img/temperos-molhos/soboro-em-po-2gr.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Soboro em pó para decoração de pratos, sachê de 2g.",
+        "whatsapp": "5521969240486"
+    },
+    {
+        "nome": "Corante em pó 1g",
+        "imagem": "img/temperos-molhos/corante-em-po-1g.jpg",
+        "categoria": "Temperos e Molhos",
+        "descricao": "Corante alimentício em pó, sachê de 1g.",
         "whatsapp": "5521969240486"
     },
     {
@@ -280,6 +294,13 @@
         "whatsapp": "5521969240486"
     },
     {
+        "nome": "Hashi embalagem Papel 100 pares",
+        "imagem": "img/utensilios-acessorios/hashi-embalagem-papel-50-pares.jpg",
+        "categoria": "Utensílios e Acessórios",
+        "descricao": "Hashis embalados em papel, pacote com 100 pares.",
+        "whatsapp": "5521969240486"
+    },
+    {
         "nome": "Aguebashi / Hashizão",
         "imagem": "img/utensilios-acessorios/aguebashi-hashizao.jpg",
         "categoria": "Utensílios e Acessórios",
@@ -295,7 +316,7 @@
     },
     {
         "nome": "Espeto 10cm (pct c/100unid)",
-        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "imagem": "img/utensilios-acessorios/espetos10cm-15cm-18cm-21cm -100unids.png",
         "categoria": "Utensílios e Acessórios",
         "descricao": "Espetos de bambu 10cm, pacote com 100 unidades.",
         "whatsapp": "5521969240486"
@@ -337,7 +358,7 @@
     },
     {
         "nome": "Cilindro Para Maçarico Portátil",
-        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "imagem": "img/utensilios-acessorios/Refil-de-gas.png",
         "categoria": "Utensílios e Acessórios",
         "descricao": "Cilindro de gás para maçarico culinário portátil.",
         "whatsapp": "5521969240486"
@@ -358,7 +379,7 @@
     },
     {
         "nome": "Pegador - Unid",
-        "imagem": "img/utensilios-acessorios/sem-foto.jpg",
+        "imagem": "img/sem-foto.jpg",
         "categoria": "Utensílios e Acessórios",
         "descricao": "Pegador culinário em aço inoxidável, unidade.",
         "whatsapp": "5521969240486"
