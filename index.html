@@ -106,25 +106,22 @@
     <section id="lista-produtos">
         <div class="container content-prd">
             <div class="row lista-prd-home">
-                <div class="col-12 col-md-4">
-                    <div class="lista-prd-item"><a href="produtos.html#Ingredientes-Essenciais">Ingredientes
-                            Essenciais</a></div>
+                <div class="col-12 col-md-6">
+                    <div class="lista-prd-item"><a href="produtos.html#Arroz-e-Algas">Arroz e Algas</a></div>
                     <div class="lista-prd-item"><a href="produtos.html#Temperos-e-Molhos">Temperos e Molhos</a></div>
                     <div class="lista-prd-item"><a href="produtos.html#Massas-e-Farinhas">Massas e Farinhas</a></div>
                 </div>
-                <div class="col-12 col-md-4 ">
-                    <div class="lista-prd-item"><a href="produtos.html#Bebidas">Bebidas</a></div>
+
+                <div class="col-12 col-md-6">
                     <div class="lista-prd-item"><a href="produtos.html#Utensílios-e-Acessórios">Utensílios e
                             Acessórios</a>
                     </div>
                     <div class="lista-prd-item"><a href="produtos.html#Embalagens">Embalagens</a></div>
-
-                </div>
-                <div class="col-12 col-md-4 ">
                     <div class="lista-prd-item"><a href="produtos.html#Refrigerados-e-Congelados">Refrigerados e
                             Congelados</a></div>
 
                 </div>
+
             </div>
         </div>
         <img src="img/dots.png" class="pontos-divisor">
@@ -172,34 +169,50 @@
 
                 <!-- Formulário -->
                 <div class="col-10 col-md-12">
-                    <form>
+                    <form id="contactForm">
                         <div class="form-group row">
                             <label for="nome" class="col-sm-2 col-form-label">NOME</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nome" placeholder="">
+                                <input type="text" name="nome" required class="form-control" id="nome" placeholder="">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="email" class="col-sm-2 col-form-label">EMAIL</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email" placeholder="">
+                                <input type="email" name="email" required class="form-control" id="email"
+                                    placeholder="">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="tel" class="col-sm-2 col-form-label">TEL</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="tel" placeholder="">
+                                <input type="text" name="tel" class="form-control" id="tel" placeholder="">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control" rows="6" placeholder="Deixe sua mensagem"></textarea>
+                            <textarea name="mensagem" required class="form-control" rows="6"
+                                placeholder="Deixe sua mensagem"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-enviar">ENVIAR</button>
                     </form>
+
+                    <script>
+                        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+                            e.preventDefault();
+                            const data = Object.fromEntries(new FormData(e.target));
+                            const resp = await fetch('/enviar-email', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify(data)
+                            });
+                            const txt = await resp.text();
+                            alert(txt);
+                        });
+                    </script>
                 </div>
 
             </div>

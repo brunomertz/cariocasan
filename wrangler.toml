@@ -1,0 +1,8 @@
+name = "formulario-sendgrid"
+compatibility_date = "2024-01-01"
+main = "index.js"
+
+[vars]
+SENDGRID_API_KEY = "chave API aqui"
+FROM_EMAIL = "no-reply@cariocasandistribuidora.com.br"
+TO_EMAIL = "faleconosco@cariocasandistribuidora.com.br"
