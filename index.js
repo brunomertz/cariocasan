@@ -14,8 +14,8 @@ export default {
 
             // montar payload para SendGrid
             const payload = {
-                personalizations: [{ to: [{ email: "SEU_DESTINO@exemplo.com" }] }],
-                from: { email: "no-reply@seudominio.com" }, // precisa ser verificado no SendGrid
+                personalizations: [{ to: [{ email: env.TO_EMAIL }] }],
+                from: { email: env.FROM_EMAIL },
                 subject: "Nova mensagem do site",
                 content: [{ type: "text/plain", value: `Nome: ${nome}\nEmail: ${email}\nTelefone: ${tel || 'Não informado'}\n\n${mensagem}` }]
             };
