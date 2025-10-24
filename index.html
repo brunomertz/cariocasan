@@ -52,7 +52,7 @@
             <!-- MENU -->
             <div class="collapse navbar-collapse" id="menuSite">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME-</a></li>
                     <li class="nav-item"><a class="nav-link" href="quem-somos.html">SOBRE NÓS</a></li>
                     <li class="nav-item"><a class="nav-link" href="produtos.html">PRODUTOS</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#receitas">RECEITAS</a></li>
@@ -201,16 +201,31 @@
                     </form>
 
                     <script>
-                        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+                        const form = document.getElementById('contactForm');
+                        form.addEventListener('submit', async (e) => {
                             e.preventDefault();
+                            const submitButton = form.querySelector('button[type="submit"]');
+                            const originalButtonText = submitButton.innerHTML;
+
+                            submitButton.disabled = true;
+                            submitButton.innerHTML = 'Enviando...';
+
                             const data = Object.fromEntries(new FormData(e.target));
-                            const resp = await fetch('/enviar-email', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: JSON.stringify(data)
-                            });
-                            const txt = await resp.text();
-                            alert(txt);
+                            try {
+                                const resp = await fetch('/enviar-email', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify(data)
+                                });
+                                const txt = await resp.text();
+                                alert(txt);
+                                if (resp.ok) form.reset(); // Limpa o formulário se o envio for bem-sucedido
+                            } catch (error) {
+                                alert('Ocorreu um erro de rede. Tente novamente.');
+                            } finally {
+                                submitButton.disabled = false;
+                                submitButton.innerHTML = originalButtonText;
+                            }
                         });
                     </script>
                 </div>
